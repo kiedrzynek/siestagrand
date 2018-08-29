@@ -1,0 +1,27 @@
+/*
+
+#C6CA53 - zielonkawy
+#4F372C - ciemny brąz
+#8D5B4C - jasny brąz
+#F4F2F0 - jasna szarość
+#0E3819 - ciemny zielony
+
+*/
+
+/*------------------------------*/
+/*BASIC SETUP*/
+/*------------------------------*/
+
+* {
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+html,
+body {
+    background-color: #F4F2F0;
+    font-family: 'Calibri', 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
