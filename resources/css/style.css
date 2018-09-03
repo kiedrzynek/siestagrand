@@ -34,14 +34,34 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/pleso-bg-img.jpg);
     background-position: center;
     background-size: cover;             /* Scale the background image to be as large as possible */
-    background-attachment: fixed;       /*background image nie scrolluje się*/
-    height: 100vh;                      /*= 100% of the viewport height*/
+    background-attachment: fixed;       /* background image nie scrolluje się */
+    height: 100vh;                      /* = 100% of the viewport height */
 }
 
+.logo {
+    float: left;
+    height: 100px;
+}
 
+/*------------------------------*/
+/*MAIN NAV*/
+/*------------------------------*/
 
+header li {
+    display: inline;
+    margin: 40px;
+}
 
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
 
+.main-nav {
+    float: right;
+    margin: 40px 55px;
+}
 
 
 
