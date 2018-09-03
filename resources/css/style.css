@@ -25,3 +25,23 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
+/*------------------------------*/
+/*HEADER*/
+/*------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/pleso-bg-img.jpg);
+    background-position: center;
+    background-size: cover;             /* Scale the background image to be as large as possible */
+    background-attachment: fixed;       /*background image nie scrolluje się*/
+    height: 100vh;                      /*= 100% of the viewport height*/
+}
+
+
+
+
+
+
+
+
