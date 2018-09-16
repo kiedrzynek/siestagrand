@@ -71,9 +71,17 @@ header li {
 }
 
 .main-nav li a {
-    text-decoration: none;
+    padding: 3px;
     color: #fff;
+    text-decoration: none;
     text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.25s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 1px solid #C6CA53;
 }
 
 .main-nav {
