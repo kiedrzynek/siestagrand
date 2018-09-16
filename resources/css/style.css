@@ -97,16 +97,35 @@ header li {
     padding: 10px 30px;
     border: 1px solid #C6CA53;
     border-radius: 200px;
-    transition: background-color 0.25, border 0.25, color 0.25;
+    transition: background-color 0.25s, border 0.25s, color 0.25s;
 }
 
-.button-full {
+.button-full:link,
+.button-full:visited {
     color: #fff;
     background-color: #C6CA53;
+    margin-right: 20px;
 }
 
-.button-ghost {
+.button:hover,
+.button:active {
+    background-color: #0E3819;
+}
+
+.button-full:hover,
+.button-full:active {
+    border-color: #0E3819;
+}
+
+.button-ghost:link,
+.button-ghost:visited {
     color: #C6CA53;
+}
+
+.button-ghost:hover,
+.bitton-ghost:active {
+    color: #fff;
+    border-color: #0E3819;
 }
 
 /*------------------------------*/
