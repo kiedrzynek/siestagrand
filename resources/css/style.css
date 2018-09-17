@@ -200,10 +200,21 @@ header li {
 .gallery-photo {
     width: 100%;
     margin: 0;
+    background-color: #000;
+    max-height: 225px;          /*obrazki mają różne wymiary, więc bez max-height robi się biała linia*/
+    overflow: hidden;
+
 }
 
 .gallery-photo img {
     width: 100%;
     height: auto;
+    opacity: 0.7;
+    transform: scale(1.10);
 }
+
+.gallery-photo img:hover {
+    transition: 
+}
+
 
