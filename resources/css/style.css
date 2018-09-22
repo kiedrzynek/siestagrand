@@ -46,6 +46,13 @@ section {
     padding: 80px 0 0 0;
 }
 
+
+.box p {
+    line-height: 145%;
+    text-align: justify;
+}
+
+
 /*------------------------------*/
 /*NAGŁÓWKI*/
 /*------------------------------*/
@@ -78,6 +85,12 @@ h2:after {                          /*robi kreskę pod nagłówkiem, border-bott
     width: 20%;
     margin: 20px auto;
     background-color: #2e5a1c;
+}
+
+h3 {
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /*------------------------------*/
@@ -228,6 +241,8 @@ header li {
 
 .box img {
     width: 100%;
+    max-height: 225px;
+    overflow: hidden;
     margin-bottom: 15px;
 }
 
