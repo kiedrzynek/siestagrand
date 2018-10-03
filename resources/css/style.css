@@ -52,6 +52,14 @@ section {
     text-align: justify;
 }
 
+.box {
+    padding: 1%;
+}
+
+.box img {
+    width: 100%;
+    margin-bottom: 15px;
+}
 
 /*------------------------------*/
 /*NAGŁÓWKI*/
@@ -75,7 +83,7 @@ h1 {
 h2 {
     font-size: 180%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 h2:after {                          /*robi kreskę pod nagłówkiem, border-bottom się nie da bo robi na całą szerokość*/
@@ -239,13 +247,23 @@ header li {
 /*LOCATION*/
 /*------------------------------*/
 
-.box img {
-    width: 100%;
-    max-height: 225px;
-    overflow: hidden;
-    margin-bottom: 15px;
+.location {
+    background-color: #fafafa;
 }
+
 
 .location-txt {
     margin-bottom: 5px;
 }
+
+
+
+/*------------------------------*/
+/* ROOMS */
+/*------------------------------*/
+
+.icon-small {
+    color: #4e9525;
+    font-size: 130%;
+}
+
