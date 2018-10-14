@@ -43,7 +43,7 @@ body {
 }
 
 section {
-    padding: 80px 0 0 0;
+    padding: 80px 0;
 }
 
 
@@ -214,6 +214,9 @@ header li {
 /*GALLERY*/
 /*------------------------------*/
 
+.gallery {
+    padding: 80px 0 0 0;
+}
 
 .gallery-showcase {
     width: 100%;
@@ -256,6 +259,7 @@ header li {
 /*------------------------------*/
 
 .location {
+    padding: 80px 0 0 0;
     background-color: #fafafa;
 }
 
@@ -280,4 +284,41 @@ header li {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+/*------------------------------*/
+/* OPINIONS */
+/*------------------------------*/
+
+.opinions {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/wanderer-455338_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+cite {
+    display: block;
+    margin-top: 15px;
+}
+
+
+cite img {
+    margin: 15px 10px 0 0;
+    border-radius: 50%;
+    height: 50px;
+}
+
+blockquote:before {
+    content: "\201c";
+    display: block;
+    font-size: 300%;
+}
+
+
+
+
+
 
