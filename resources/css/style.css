@@ -285,6 +285,53 @@ header li {
     transform: translate(-50%, -50%);
 }
 
+/*------------------------------*/
+/* ICONS */
+/*------------------------------*/
+
+.sg-in-icons {
+    background-color: #fafafa;
+}
+
+.icons {
+    margin: 0 auto;
+}
+
+.sg-in-icons i {
+    margin: 40px 3px 40px 80px;
+}
+
+.ion-ios-people:hover {
+    color: rgb(221, 26, 26);
+}
+
+.ion-person-add:hover {
+    color: rgb(49, 26, 221);
+}
+
+.ion-ios-moon:hover {
+    color: rgb(253, 244, 8);
+}
+
+.ion-ios-home:hover {
+    color: #2e5a1c;
+}
+
+.ion-waterdrop:hover {
+    color: rgb(8, 149, 253);
+}
+
+.ion-wifi:hover {
+    color: rgb(0, 0, 0);
+}
+
+.ion-android-restaurant:hover {
+    color: rgb(70, 113, 121);
+}
+
+.ion-ios-paw:hover {
+    color: rgb(92, 57, 57);
+}
 
 
 /*------------------------------*/
