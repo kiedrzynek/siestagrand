@@ -363,6 +363,53 @@ blockquote:before {
 }
 
 
+/*------------------------------*/
+/* PRICE LIST */
+/*------------------------------*/
+
+.price-list-box {
+    border-radius: 2%;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.price {
+    font-size: 300%;
+    font-weight: lighter;
+    color: #4e9525;
+}
+
+.price span {
+    font-size: 30%;
+    
+}
+
+.price-list-box div {
+    border-bottom: 1px solid #d4d4d4;
+    padding: 15px;
+}
+
+.price-list-box div:first-child {
+    background-color: #fbfbfb;
+    padding: 15px;
+}
+
+.price-list-box div:last-child {
+    text-align: center;
+    border: 0;
+    margin: 10px 0;
+}
+
+.price-list-box ul {
+    list-style-type: none;
+}
+
+.price-list-box ul li {
+    padding: 8px 0;
+}
+
 
 
 
