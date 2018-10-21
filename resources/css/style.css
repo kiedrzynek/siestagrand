@@ -296,6 +296,7 @@ header li {
 
 .sg-in-icons i {
     margin: 40px 3px 40px 80px;
+    font-size: 150%;
 }
 
 .ion-ios-people:hover {
@@ -307,11 +308,11 @@ header li {
 }
 
 .ion-ios-moon:hover {
-    color: rgb(253, 244, 8);
+    color: rgb(255, 216, 0);
 }
 
 .ion-ios-home:hover {
-    color: #2e5a1c;
+    color: #4b962c;
 }
 
 .ion-waterdrop:hover {
