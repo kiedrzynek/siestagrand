@@ -457,3 +457,31 @@ textarea {
 input[type=checkbox] {
     margin: 5px 5px 5px 0;
 }
+
+
+/*------------------------------*/
+/* FOOTER */
+/*------------------------------*/
+
+
+footer {
+    background-color: #343434;
+    padding: 40px;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+}
+
+footer a {
+    text-decoration: none;
+    color: #777777;
+    font-size: 90%;
+    margin-right: 20px;
+}
+
+footer a:hover {
+    color: #c9c9c9;
+    transition: color 0.3s;
+}
