@@ -485,3 +485,30 @@ footer a:hover {
     color: #c9c9c9;
     transition: color 0.3s;
 }
+
+footer p {
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    font-size: 90%;
+    color: #777777;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links i {
+    font-size: 25px;
+}
+
+.ion-social-facebook:hover {
+    color: #3B5998;
+}
+
+.ion-social-instagram:hover {
+    color: #fb3958;
+}
+
+.ion-social-twitter:hover {
+    color: #1DA1F2;
+}
