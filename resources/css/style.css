@@ -157,7 +157,8 @@ header li {
 /* ------BUTTONY------- */
 
 .button:link,
-.button:visited {
+.button:visited,
+input[type=submit] {
     text-decoration: none;
     padding: 10px 30px;
     border: 1px solid #4e9525;
@@ -166,19 +167,24 @@ header li {
 }
 
 .button-full:link,
-.button-full:visited {
+.button-full:visited,
+input[type=submit] {
     color: #fff;
     background-color: #4e9525;
     margin-right: 20px;
 }
 
 .button:hover,
-.button:active {
+.button:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #2e5a1c;
 }
 
 .button-full:hover,
-.button-full:active {
+.button-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     border-color: #2e5a1c;
 }
 
@@ -413,4 +419,41 @@ blockquote:before {
 
 
 
+/*------------------------------*/
+/* FORM */
+/*------------------------------*/
 
+
+.section-form {
+    background-color: #fff;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input, textarea, select { 
+    font-family: inherit;  /* we have to re-define the font family for the input fields */
+    font-size: 100%; 
+}
+
+#name,
+#text, 
+#email,
+#user-choices,
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type=checkbox] {
+    margin: 5px 5px 5px 0;
+}
