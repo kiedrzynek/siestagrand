@@ -274,6 +274,9 @@ input[type=submit]:active {
     margin-bottom: 5px;
 }
 
+.location img {
+    max-height: 210px;
+}
 
 
 /*------------------------------*/
