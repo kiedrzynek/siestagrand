@@ -289,15 +289,16 @@ input[type=submit]:active {
 /* ROOMS */
 /*------------------------------*/
 
+.rooms-feature {
+    text-align: center;
+}
+
 .icon-small {
-    color: #4e9525;
+    color: #ebc600;
     font-size: 130%;
     width: 30px;
     line-height: 120%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-right: 10px;
 }
 
 /*------------------------------*/
