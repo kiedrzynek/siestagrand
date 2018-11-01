@@ -319,9 +319,13 @@ input[type=submit]:active {
     background-color: #fafafa;
 }
 
+.sg-in-icons .row {
+    padding-bottom: 40px;
+}
+
 
 .sg-in-icons i {
-    margin: 40px 3px 40px 80px;
+    margin: 40px 3px 40px 10px;
     font-size: 150%;
 }
 
@@ -357,6 +361,27 @@ input[type=submit]:active {
     color: rgb(92, 57, 57);
 }
 
+.tooltip::after {                   /* sam border-bottom podkreślałby cały div razem z ikoną */
+    content: ' ';
+    display: block;
+    position: relative;
+    left: 50px;
+    width: 125px;
+    height: 2px;
+    background-color: transparent;
+    border-bottom: 1px dotted #000;
+}
+ 
+.tooltip .tooltiptext {             /* stylujemy pojawiający się text na hoverze, żeby wyglądał jak komiksowy dymek */
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 /*------------------------------*/
 /* OPINIONS */
