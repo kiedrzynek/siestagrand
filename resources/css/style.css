@@ -304,7 +304,11 @@ input[type=submit]:active {
 .rooms ul {
     list-style-type: none;
     margin-top: 10px;
-    margin-left: 10px;
+}
+
+.rooms p {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 /*------------------------------*/
