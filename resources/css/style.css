@@ -357,18 +357,41 @@ input[type=submit]:active {
     color: rgb(70, 113, 121);
 }
 
-.ion-ios-paw:hover {
-    color: rgb(92, 57, 57);
+.ion-android-bar:hover {
+    color: rgb(224, 203, 115);
 }
 
-.tooltip::after {                   /* sam border-bottom podkreślałby cały div razem z ikoną */
-    content: ' ';
-    display: block;
+.ion-bonfire:hover {
+    color: rgb(191, 12, 12);
+}
+
+.ion-android-bicycle:hover {
+    color: rgb(201, 38, 164);
+}
+
+.ion-ios-tennisball-outline:hover {
+    color: rgb(179, 221, 65); 
+}
+
+.ion-ios-flame:hover {
+    color: rgb(216, 139, 16);
+}
+
+.ion-ios-calendar-outline:hover {
+    color: rgb(36, 52, 235);
+}
+
+.ion-ios-paw:hover {
+    color: rgb(121, 65, 65);
+}
+
+.ion-model-s:hover {
+    color: rgb(0, 0, 0);
+}
+
+.tooltip {
+    display: inline-block;
     position: relative;
-    left: 50px;
-    width: 125px;
-    height: 2px;
-    background-color: transparent;
     border-bottom: 1px dotted #000;
 }
  
@@ -377,10 +400,35 @@ input[type=submit]:active {
     position: absolute;
     z-index: 1;
     font-size: 15px;
+    text-align: center;
+    background-color: #7b7a7a;
+    color: #dddddd;
+    border-radius: 4px;
+    width: 200px;
+    top: 150%;
+    left: 50%;
+    margin-left: -100px;
+    padding: 2px 4px;
+}
+
+.tooltip .tooltiptext:after {           /* dodajemy dziubek do dymka */
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #7b7a7a transparent;
+    
 }
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+.sg-in-icons .row:nth-child(5) {
+    padding-left: 100px;
 }
 
 /*------------------------------*/
