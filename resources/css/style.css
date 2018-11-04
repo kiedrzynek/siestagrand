@@ -320,9 +320,8 @@ input[type=submit]:active {
 }
 
 .sg-in-icons .row {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
-
 
 .sg-in-icons i {
     margin: 40px 3px 40px 10px;
@@ -467,11 +466,12 @@ blockquote:before {
 /*------------------------------*/
 
 .price-list-box {
-    border-radius: 2%;
+    border-radius: 5px;
     border: 1px solid #d4d4d4;
     background-color: #fff;
     width: 90%;
     margin-left: 10px;
+    box-shadow: 1px 1px 3px #b7b7b7;
 }
 
 .price {
@@ -493,6 +493,7 @@ blockquote:before {
 .price-list-box div:first-child {
     background-color: #fbfbfb;
     padding: 15px;
+    border-radius: 5px;
 }
 
 .price-list-box div:last-child {
