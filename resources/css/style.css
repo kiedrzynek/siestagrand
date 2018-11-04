@@ -467,22 +467,23 @@ blockquote:before {
 
 .price-list-box {
     border-radius: 5px;
-    border: 1px solid #d4d4d4;
     background-color: #fff;
     width: 90%;
     margin-left: 10px;
-    box-shadow: 1px 1px 3px #b7b7b7;
+    box-shadow: 1px 1px 3px #cccccc;
+    color: #676666;
 }
 
 .price {
-    font-size: 300%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 350%;
     font-weight: 100;
     color: #4e9525;
+    margin-left: 10px;
 }
 
 .price span {
     font-size: 30%;
-    
 }
 
 .price-list-box div {
@@ -493,13 +494,13 @@ blockquote:before {
 .price-list-box div:first-child {
     background-color: #fbfbfb;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
 }
 
 .price-list-box div:last-child {
     text-align: center;
     border: 0;
-    margin: 10px 0;
+    padding: 25px 0 25px 0;
 }
 
 .price-list-box ul {
