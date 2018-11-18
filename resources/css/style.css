@@ -239,7 +239,7 @@ input[type=submit]:active {
     width: 100%;
     margin: 0;
     background-color: #000;
-    max-height: 225px;          /* obrazki mają różne wymiary, więc bez max-height robi się biała linia */
+    max-height: 220px;          /* obrazki mają różne wymiary, więc bez max-height robi się biała linia */
     overflow: hidden;
 
 }
