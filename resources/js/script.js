@@ -16,4 +16,12 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.section-form').offset().top}, 500); 
     });
     
+     $('#js-book-now').click(function() {
+       $('html, body').animate({scrollTop: $('.prices').offset().top}, 500); 
+    });
+    
+     $('#js-show-me').click(function() {
+       $('html, body').animate({scrollTop: $('.gallery').offset().top}, 500); 
+    });
+    
 });
