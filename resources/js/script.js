@@ -1,5 +1,6 @@
 $(document).ready(function() {
     
+    
     $('#gallery').click(function() {
         $('html, body').animate({scrollTop: $('.gallery').offset().top}, 500);
     });
@@ -23,5 +24,7 @@ $(document).ready(function() {
      $('#js-show-me').click(function() {
        $('html, body').animate({scrollTop: $('.gallery').offset().top}, 500); 
     });
+    
+
     
 });
