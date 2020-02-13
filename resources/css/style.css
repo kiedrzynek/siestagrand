@@ -611,3 +611,7 @@ footer p {
 .ion-social-twitter:hover {
     color: #1DA1F2;
 }
+
+.signature {
+    margin: 0;
+}
