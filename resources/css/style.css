@@ -15,7 +15,7 @@
 * {
     margin: 0;
     padding:  0;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
 }
 
 html,
@@ -33,7 +33,7 @@ body {
     margin: 0 auto;
 }
 
-.clearfix {zoom: 1} /*naprawia floaty obrazków które zerują wysokość sekcji gallery*/
+.clearfix {zoom: 1}
 .clearfix:after {
     content: '.';
     clear: both;
@@ -87,7 +87,7 @@ h2 {
     margin-bottom: 50px;
 }
 
-h2:after {                          /*robi kreskę pod nagłówkiem, border-bottom się nie da bo robi na całą szerokość*/
+h2:after {
     content: " ";
     display: block;
     height: 2px;
@@ -105,7 +105,6 @@ h3 {
 h4 {
     font-size: 110%;
     text-align: center;
-    margin-bottom: 10px;
     display: inline;
 }
 
@@ -116,9 +115,9 @@ h4 {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/pleso-bg-img.jpg);
     background-position: center;
-    background-size: cover;             /* Scale the background image to be as large as possible */
-    background-attachment: fixed;       /* background image nie scrolluje się */
-    height: 100vh;                      /* = 100% of the viewport height */
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 .logo {
@@ -242,7 +241,7 @@ input[type=submit]:active {
     width: 100%;
     margin: 0;
     background-color: #000;
-    max-height: 220px;          /* obrazki mają różne wymiary, więc bez max-height robi się biała linia */
+    max-height: 220px;
     overflow: hidden;
 
 }
@@ -252,10 +251,10 @@ input[type=submit]:active {
     height: auto;
     opacity: 0.7;
     transform: scale(1.20);
-    transition: transform 0.5s, background-color 0.5s, opacity 0.5s; /* moje usprawnienie, lepiej wygląda jak nie tylko na hoverze ale i zdejmując kuror też jest transition */
+    transition: transform 0.5s, background-color 0.5s, opacity 0.5s;
 }
 
-.gallery-photo img:hover {      /* zrobiłam sama, bez ściągi, metodą prób i błędów :D */
+.gallery-photo img:hover {
     transform: scale(1.05);
     background-color: #fff;
     opacity: 1;
@@ -396,7 +395,7 @@ input[type=submit]:active {
     border-bottom: 1px dotted #000;
 }
  
-.tooltip .tooltiptext {             /* stylujemy pojawiający się text na hoverze, żeby wyglądał jak komiksowy dymek */
+.tooltip .tooltiptext {
     visibility: hidden;
     position: absolute;
     z-index: 1;
@@ -412,7 +411,7 @@ input[type=submit]:active {
     padding: 2px 4px;
 }
 
-.tooltip .tooltiptext:after {           /* dodajemy dziubek do dymka */
+.tooltip .tooltiptext:after {
     content: "";
     position: absolute;
     bottom: 100%;
@@ -534,7 +533,7 @@ blockquote:before {
 }
 
 input, textarea, select { 
-    font-family: inherit;  /* we have to re-define the font family for the input fields */
+    font-family: inherit;
     font-size: 100%; 
 }
 
@@ -611,4 +610,8 @@ footer p {
 
 .ion-social-twitter:hover {
     color: #1DA1F2;
+}
+
+.signature {
+    margin: 0;
 }
