@@ -77,6 +77,8 @@
     body {
         font-size: 80%;
     }
+
+    .clearfix {zoom: .8}
     
     .hero-text-box span::after  {
         content: '\A';
@@ -152,8 +154,10 @@
         font-size: 75%;
         width: 100%;
     }
+
+    .clearfix {zoom: .5}
     
-   .hero-text-box {
+    .hero-text-box {
        font-size: 75%;
        margin-top: 10px;
        padding: 0 2em;
