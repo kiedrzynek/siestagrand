@@ -25,6 +25,9 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.gallery').offset().top}, 500); 
     });
     
-
+    $('.mobile-main-nav').click(function() {
+      $('#js-main-nav').toggle();
+      $(this).toggleClass('is-active');
+    });
     
 });
