@@ -26,6 +26,7 @@ body {
     font-weight: 300;
     text-rendering: optimizeLegibility;
     color: #555555;
+    overflow-x: hidden;
 }
 
 .row {
@@ -614,4 +615,5 @@ footer p {
 
 .signature {
     margin: 0;
+    font-size: 100%;
 }
